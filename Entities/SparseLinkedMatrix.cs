@@ -1,9 +1,8 @@
 class SparseLinkedMatrix
 {
-    public Node? First;
+
     public required Node[]? nodes;
     private int CountCol { get; set; }
-    public SparseLinkedMatrix() { First = null; }
 
     public void Create(int lines, int[] cols)
     {
